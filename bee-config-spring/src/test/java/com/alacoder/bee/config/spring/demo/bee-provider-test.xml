@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * 版权声明：bee 版权所有 违者必究 2016
+ * Copyright: Copyright (c) 2016 
+ *
+ * 
+ * @project_name: bee-config-spring
+ * @Title: SpringConfigTest.java
+ * @Package com.alacoder.bee.config.spring
+ * @Description: 
+ * @author jimmy.zhong
+ * @date 2016年7月21日 下午8:30:05
+ * @version V1.0
+ */
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:bee="http://code.alacoder.com/schema/bee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alacoder.com/schema/bee http://code.alacoder.com/schema/bee/bee.xsd">
+
+    <bee:application name="bee-provider-test"  />
+    <bee:registry address="redis://127.0.0.1:6379" />
+    <bee:protocol name="bee" port="20881" />
+    
+    <bee:service group="providerdemoGroup" interface="com.alacoder.bee.config.spring.demo.ProviderDemoService" ref="providerdemoService" />
+    	
+	<bean id="providerdemoService" class="com.alacoder.bee.config.spring.demo.ProviderDemoServiceImpl" />
+	
+
+	
+</beans>
