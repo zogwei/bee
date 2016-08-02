@@ -40,7 +40,7 @@ public class BeeNamespaceHandler extends NamespaceHandlerSupport {
 	
 	@Override
 	public void init() {
-	    registerBeanDefinitionParser("application", new ApplicationConfigDefinitionParser(ApplicationConfig.class, true));
+	    registerBeanDefinitionParser("application", new BeeBeanDefinitionParser(ApplicationConfig.class, true));
         registerBeanDefinitionParser("module", new BeeBeanDefinitionParser(ModuleConfig.class, true));
         registerBeanDefinitionParser("registry", new BeeBeanDefinitionParser(RegistryConfig.class, true));
         registerBeanDefinitionParser("monitor", new BeeBeanDefinitionParser(MonitorConfig.class, true));

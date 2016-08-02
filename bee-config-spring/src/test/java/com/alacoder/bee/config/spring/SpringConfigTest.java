@@ -20,6 +20,7 @@ import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.alacoder.bee.config.spring.demo.ProviderDemoService;
+import com.alacoder.bee.remote.transport.dispatcher.all.ServiceBean;
 
 /**
  * @ClassName: SpringConfigTest
@@ -39,6 +40,12 @@ public class SpringConfigTest {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(config);
 		context.start();
 		try {
+			ServiceBean beeService =  context.getBean("beeService",ServiceBean.class);
+			beeService.export();
+			
+			ProviderDemoService demoService =  context.getBean("providerdemoService",ProviderDemoService.class);
+			demoService.provideMethod1("provide method1");
+			
 			System.in.read();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -46,7 +53,7 @@ public class SpringConfigTest {
 	}
 
 	public static void main(String[] args) {
-
+		(new SpringConfigTest()).testSpringConfig();
 	}
 
 }

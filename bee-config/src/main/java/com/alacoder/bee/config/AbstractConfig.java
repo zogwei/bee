@@ -43,9 +43,13 @@ public class AbstractConfig  implements Serializable {
     
     private static final Pattern PATTERN_NAME = Pattern.compile("[\\-._0-9a-zA-Z]+");
 
-    private static final Pattern PATTERN_NAME_HAS_SYMBOL = Pattern.compile("[:*,/\\-._0-9a-zA-Z]+");
-    
     private static final Pattern PATTERN_MULTI_NAME = Pattern.compile("[,\\-._0-9a-zA-Z]+");
+
+    private static final Pattern PATTERN_METHOD_NAME = Pattern.compile("[a-zA-Z][0-9a-zA-Z]*");
+    
+    private static final Pattern PATTERN_PATH = Pattern.compile("[/\\-$._0-9a-zA-Z]+");
+
+    private static final Pattern PATTERN_NAME_HAS_SYMBOL = Pattern.compile("[:*,/\\-._0-9a-zA-Z]+");
 
     private static final Pattern PATTERN_KEY = Pattern.compile("[*,\\-._0-9a-zA-Z]+");
 
@@ -121,6 +125,10 @@ public class AbstractConfig  implements Serializable {
     
     protected static void checkKey(String property, String value) {
         checkProperty(property, value, MAX_LENGTH, PATTERN_KEY);
+    }
+    
+    protected static void checkMethodName(String property, String value) {
+        checkProperty(property, value, MAX_LENGTH, PATTERN_METHOD_NAME);
     }
 
 }

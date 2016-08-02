@@ -16,7 +16,7 @@ package com.alacoder.bee.common.logger.support;
 
 import com.alacoder.bee.common.Version;
 import com.alacoder.bee.common.logger.Logger;
-import com.alacoder.bee.common.util.NetUtils;
+import com.alacoder.bee.common.utils.NetUtils;
 
 public class FailsafeLogger implements Logger {
 

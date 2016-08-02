@@ -14,6 +14,8 @@
 
 package com.alacoder.bee.config.spring;
 
+import com.alacoder.bee.common.logger.Logger;
+import com.alacoder.bee.common.logger.LoggerFactory;
 import com.alacoder.bee.config.ServiceConfig;
 
 /**
@@ -28,4 +30,10 @@ import com.alacoder.bee.config.ServiceConfig;
 
 public class ServiceBean<T> extends ServiceConfig<T> {
 
+	private static final long serialVersionUID = -3681994850463374388L;
+	private static final Logger logger = LoggerFactory.getLogger(ServiceBean.class);
+	
+	public void export(){
+		logger.info("ServiceBean export begin");
+	}
 }

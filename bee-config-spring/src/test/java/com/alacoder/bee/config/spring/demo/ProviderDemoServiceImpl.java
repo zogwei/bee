@@ -14,6 +14,10 @@
 
 package com.alacoder.bee.config.spring.demo;
 
+import com.alacoder.bee.common.logger.Logger;
+import com.alacoder.bee.common.logger.LoggerFactory;
+import com.alacoder.bee.config.spring.schema.BeeBeanDefinitionParser;
+
 /**
  * @ClassName: ProviderDemoServiceImpl
  * @Description: TODO
@@ -24,15 +28,21 @@ package com.alacoder.bee.config.spring.demo;
  */
 
 public class ProviderDemoServiceImpl implements ProviderDemoService {
+	
+	 private static final Logger logger = LoggerFactory.getLogger(BeeBeanDefinitionParser.class);
 
 	@Override
 	public String provideMethod1(String param) {
+		logger.info("ProviderDemoServiceImpl provideMethod1 run ");
 		return  "provider method ";
 	}
 	
 	
 	@Override
 	public Integer provideMethod2(String param) {
+		
+		logger.info("ProviderDemoServiceImpl provideMethod2 run ");
+		
 		return new Integer(2);
 	}
 

@@ -23,10 +23,11 @@
     <bee:application name="bee-provider-test"  />
     <bee:registry address="redis://127.0.0.1:6379" />
     <bee:protocol name="bee" port="20881" />
-    
-    <bee:service group="providerdemoGroup" interface="com.alacoder.bee.config.spring.demo.ProviderDemoService" ref="providerdemoService" />
-    	
+        	
 	<bean id="providerdemoService" class="com.alacoder.bee.config.spring.demo.ProviderDemoServiceImpl" />
+    
+    <bee:service id="beeService" group="providerdemoGroup" interface="com.alacoder.bee.config.spring.demo.ProviderDemoService" ref="providerdemoService" />
+
 	
 
 	
