@@ -26,5 +26,5 @@ import com.alacoder.bee.remote.telnet.TelnetHandler;
 
 public interface ExchangeHandler extends ChannelHandler, TelnetHandler{
 
-	Object reply()
+//	Object reply()
 }
