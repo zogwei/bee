@@ -26,7 +26,7 @@ import com.alacoder.bee.remote.transport.codec.CodecAdapter;
 
 /**
  * @ClassName: AbstractEndpoint
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午3:45:43
  *

@@ -19,7 +19,7 @@ import com.alacoder.bee.common.URL;
 
 /**
  * @ClassName: Endpoint
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午4:07:53
  *

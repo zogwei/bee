@@ -22,7 +22,7 @@ import com.alacoder.bee.rpc.service.EchoService;
 
 /**
  * @ClassName: AbstractProxyFactory
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午2:05:20
  *

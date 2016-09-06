@@ -33,7 +33,7 @@ import com.alacoder.bee.remote.Server;
 
 /**
  * @ClassName: AbstractServer
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午4:27:15
  *

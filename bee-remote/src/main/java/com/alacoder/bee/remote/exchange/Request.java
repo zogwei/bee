@@ -19,7 +19,7 @@ import com.alacoder.bee.common.utils.StringUtils;
 
 /**
  * @ClassName: Request
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午6:20:40
  *

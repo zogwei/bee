@@ -24,7 +24,7 @@ import com.alacoder.bee.common.utils.ReflectUtils;
 
 /**
  * @ClassName: Mixin
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午2:15:10
  *

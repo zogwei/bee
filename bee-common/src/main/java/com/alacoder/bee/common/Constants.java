@@ -273,7 +273,7 @@ public class Constants {
     public static final String  KEEP_ALIVE_KEY                  = "keepalive";
 
     // modified by lishen
-    // TODO change to a better name
+    //  
     public static final String  OPTIMIZER_KEY                  = "optimizer";
 
     public static final String  EXCHANGER_KEY                      = "exchanger";

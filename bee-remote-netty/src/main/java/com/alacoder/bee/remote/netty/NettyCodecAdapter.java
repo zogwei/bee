@@ -15,7 +15,7 @@ package com.alacoder.bee.remote.netty;
 
 /**
  * @ClassName: NettyCodecAdapter
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午3:57:36
  *

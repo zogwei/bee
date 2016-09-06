@@ -14,11 +14,12 @@
 package com.alacoder.bee.remote.exchange;
 
 import com.alacoder.bee.remote.ChannelHandler;
+import com.alacoder.bee.remote.RemotingException;
 import com.alacoder.bee.remote.telnet.TelnetHandler;
 
 /**
  * @ClassName: ExchangeHandler
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午6:02:25
  *
@@ -26,5 +27,5 @@ import com.alacoder.bee.remote.telnet.TelnetHandler;
 
 public interface ExchangeHandler extends ChannelHandler, TelnetHandler{
 
-//	Object reply()
+	Object reply(ExchangeChannel channel, Object request) throws RemotingException;
 }

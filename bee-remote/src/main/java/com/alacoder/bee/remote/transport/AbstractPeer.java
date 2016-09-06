@@ -22,7 +22,7 @@ import com.alacoder.bee.remote.RemotingException;
 
 /**
  * @ClassName: AbstractPeer
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午3:20:27
  *

@@ -16,7 +16,7 @@ package com.alacoder.bee.config.spring;
 
 /**
  * @ClassName: ReferenceBean
- * @Description: TODO
+ * @Description: 
  * @project_name: bee-config-spring
  * @author jimmy.zhong
  * @date 2016年7月21日 下午8:57:30

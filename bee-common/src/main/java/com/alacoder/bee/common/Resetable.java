@@ -15,7 +15,7 @@ package com.alacoder.bee.common;
 
 /**
  * @ClassName: Resetable
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午5:39:43
  *

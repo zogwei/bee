@@ -17,7 +17,7 @@ import java.net.InetSocketAddress;
 
 /**
  * @ClassName: RemotingException
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午4:13:12
  *

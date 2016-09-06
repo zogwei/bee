@@ -29,7 +29,7 @@ import com.alacoder.bee.remote.transport.AbstractChannel;
 
 /**
  * @ClassName: NettyChannel
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午1:35:57
  *

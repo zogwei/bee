@@ -24,7 +24,7 @@ import com.alacoder.bee.remote.ChannelHandler;
 
 /**
  * @ClassName: ChannelHandlerDispatcher
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 上午11:44:22
  *

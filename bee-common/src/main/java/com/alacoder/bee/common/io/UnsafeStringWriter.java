@@ -15,7 +15,7 @@ package com.alacoder.bee.common.io;
 
 /**
  * @ClassName: UnsafeStringWriter
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月27日 下午3:40:14
  *

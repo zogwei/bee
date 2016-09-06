@@ -15,7 +15,7 @@ package com.alacoder.bee.common.bytecode;
 
 /**
  * @ClassName: NoSuchPropertyException
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午2:15:59
  *

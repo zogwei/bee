@@ -18,7 +18,7 @@ import com.alacoder.bee.remote.RemotingException;
 
 /**
  * @ClassName: ExchangeChannel
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午5:50:17
  *
@@ -30,5 +30,7 @@ public interface ExchangeChannel extends Channel{
 	
 	ResponseFuture request(Object request, int timeout) throws RemotingException;
 	
+	ExchangeHandler getExchangeHandler();
 	
+	void close(int timeout);
 }

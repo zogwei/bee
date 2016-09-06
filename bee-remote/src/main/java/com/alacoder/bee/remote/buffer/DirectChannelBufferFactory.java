@@ -17,7 +17,7 @@ import java.nio.ByteBuffer;
 
 /**
  * @ClassName: DirectChannelBufferFactory
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午4:05:28
  *

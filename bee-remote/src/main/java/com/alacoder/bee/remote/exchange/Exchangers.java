@@ -3,27 +3,24 @@
  * Copyright: Copyright (c) 2016 
  * 
  * @project_name: bee-remote
- * @Title: ResponseCallback.java
+ * @Title: Exchangers.java
  * @Package com.alacoder.bee.remote.exchange
  * @Description: 
  * @author jimmy.zhong
- * @date 2016年8月1日 下午5:56:43
+ * @date 2016年8月2日 下午4:12:57
  * @version V1.0
  */
 
 package com.alacoder.bee.remote.exchange;
 
 /**
- * @ClassName: ResponseCallback
+ * @ClassName: Exchangers
  * @Description: 
  * @author jimmy.zhong
- * @date 2016年8月1日 下午5:56:43
+ * @date 2016年8月2日 下午4:12:57
  *
  */
 
-public interface ResponseCallback {
+public class Exchangers {
 
-	void done(Object response);
-	
-	void caught(Throwable exception);
 }

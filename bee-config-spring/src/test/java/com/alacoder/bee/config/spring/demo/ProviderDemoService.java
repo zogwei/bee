@@ -16,7 +16,7 @@ package com.alacoder.bee.config.spring.demo;
 
 /**
  * @ClassName: ProviderDemoService
- * @Description: TODO
+ * @Description: 
  * @project_name: bee-config-spring
  * @author jimmy.zhong
  * @date 2016年7月21日 下午8:36:19

@@ -20,7 +20,7 @@ import com.alacoder.bee.config.ServiceConfig;
 
 /**
  * @ClassName: ServiceBean
- * @Description: TODO
+ * @Description: 
  * @project_name: bee-config-spring
  * @author jimmy.zhong
  * @param <T>

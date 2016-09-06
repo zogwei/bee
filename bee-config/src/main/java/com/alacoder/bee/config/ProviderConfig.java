@@ -15,7 +15,7 @@ package com.alacoder.bee.config;
 
 /**
  * @ClassName: ProviderConfig
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月21日 下午8:55:10
  *

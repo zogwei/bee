@@ -15,7 +15,7 @@ package com.alacoder.bee.rpc;
 
 /**
  * @ClassName: RpcException
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午2:51:02
  *

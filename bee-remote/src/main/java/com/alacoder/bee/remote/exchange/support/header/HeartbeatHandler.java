@@ -25,7 +25,7 @@ import com.alacoder.bee.remote.transport.AbstractChannelHandlerDelegate;
 
 /**
  * @ClassName: HeartbeatHandler
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午6:18:36
  *

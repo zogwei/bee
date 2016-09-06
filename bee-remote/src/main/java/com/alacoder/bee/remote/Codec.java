@@ -23,7 +23,7 @@ import com.alacoder.bee.common.extension.SPI;
 
 /**
  * @ClassName: Codec
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午4:10:15
  *

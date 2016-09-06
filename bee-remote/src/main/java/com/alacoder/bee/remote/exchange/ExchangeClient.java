@@ -3,27 +3,26 @@
  * Copyright: Copyright (c) 2016 
  * 
  * @project_name: bee-remote
- * @Title: ResponseCallback.java
+ * @Title: ExchangeClient.java
  * @Package com.alacoder.bee.remote.exchange
  * @Description: 
  * @author jimmy.zhong
- * @date 2016年8月1日 下午5:56:43
+ * @date 2016年8月2日 下午3:55:21
  * @version V1.0
  */
 
 package com.alacoder.bee.remote.exchange;
 
+import com.alacoder.bee.remote.Client;
+
 /**
- * @ClassName: ResponseCallback
+ * @ClassName: ExchangeClient
  * @Description: 
  * @author jimmy.zhong
- * @date 2016年8月1日 下午5:56:43
+ * @date 2016年8月2日 下午3:55:21
  *
  */
 
-public interface ResponseCallback {
+public interface ExchangeClient extends Client, ExchangeChannel {
 
-	void done(Object response);
-	
-	void caught(Throwable exception);
 }

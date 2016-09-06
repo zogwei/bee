@@ -24,7 +24,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * @ClassName: AbstractProxyInvoker
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午2:19:06
  *

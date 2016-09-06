@@ -17,7 +17,7 @@ import com.alacoder.bee.remote.RemotingException;
 
 /**
  * @ClassName: ResponseFuture
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午5:50:59
  *

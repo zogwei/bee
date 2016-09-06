@@ -20,7 +20,7 @@ import com.alacoder.bee.remote.exchange.support.MultiMessage;
 
 /**
  * @ClassName: MultiMessageHandler
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午6:12:44
  *

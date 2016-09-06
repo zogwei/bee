@@ -15,7 +15,7 @@ package com.alacoder.bee.remote.buffer;
 
 /**
  * @ClassName: ChannelBuffers
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午4:00:47
  *

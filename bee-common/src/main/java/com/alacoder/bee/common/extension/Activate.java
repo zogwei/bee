@@ -15,7 +15,7 @@ package com.alacoder.bee.common.extension;
 
 /**
  * @ClassName: Activate
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午5:55:50
  *

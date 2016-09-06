@@ -20,11 +20,10 @@ import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.alacoder.bee.config.spring.demo.ProviderDemoService;
-import com.alacoder.bee.remote.transport.dispatcher.all.ServiceBean;
 
 /**
  * @ClassName: SpringConfigTest
- * @Description: TODO
+ * @Description: 
  * @project_name: bee-config-spring
  * @author jimmy.zhong
  * @date 2016年7月21日 下午8:30:05

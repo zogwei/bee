@@ -20,7 +20,7 @@ import com.alacoder.bee.remote.RemotingException;
 
 /**
  * @ClassName: AbstractChannelHandlerDelegate
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午6:13:36
  *

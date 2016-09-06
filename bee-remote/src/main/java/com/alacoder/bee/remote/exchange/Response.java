@@ -15,7 +15,7 @@ package com.alacoder.bee.remote.exchange;
 
 /**
  * @ClassName: Response
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 上午10:53:23
  *

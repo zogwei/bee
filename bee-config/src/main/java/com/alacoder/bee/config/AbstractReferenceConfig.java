@@ -18,7 +18,7 @@ import com.alacoder.bee.config.annotation.Parameter;
 
 /**
  * @ClassName: AbstractReferenceConfig
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月27日 下午4:13:13
  *

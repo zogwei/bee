@@ -23,7 +23,7 @@ import java.nio.channels.ScatteringByteChannel;
 
 /**
  * @ClassName: HeapChannelBuffer
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年8月1日 下午4:02:43
  *

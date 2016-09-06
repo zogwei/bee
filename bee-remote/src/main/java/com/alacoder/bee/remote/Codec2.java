@@ -22,7 +22,7 @@ import com.alacoder.bee.remote.buffer.ChannelBuffer;
 
 /**
  * @ClassName: Codec2
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午5:41:57
  *

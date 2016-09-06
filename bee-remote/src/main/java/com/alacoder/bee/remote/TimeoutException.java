@@ -17,7 +17,7 @@ import java.net.InetSocketAddress;
 
 /**
  * @ClassName: TimeoutException
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 上午10:01:13
  *

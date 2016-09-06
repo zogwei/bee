@@ -17,7 +17,7 @@ import com.alacoder.bee.common.Node;
 
 /**
  * @ClassName: Invoker
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月28日 下午2:45:24
  *

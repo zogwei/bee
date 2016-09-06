@@ -43,7 +43,7 @@ import javassist.NotFoundException;
 
 /**
  * @ClassName: ClassGenerator
- * @Description: TODO
+ * @Description: 
  * @author jimmy.zhong
  * @date 2016年7月29日 下午2:14:22
  *
